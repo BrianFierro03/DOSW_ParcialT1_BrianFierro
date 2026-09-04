@@ -6,8 +6,10 @@ package edu.dosw.parcial;
  */
 public class App 
 {
+    private static TutorECI tutorECI;
+
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        tutorECI = new TutorECI();
     }
 }
